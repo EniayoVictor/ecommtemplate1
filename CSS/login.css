@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-y: hidden;
+}
+.displayNone{
+    display: none;
+}
+.animation1{
+    font-family: 'Mukta', sans-serif;
+    font-size: 25px;
+    text-shadow: 3px 0px #f3e9d2;
+    letter-spacing: 15px;
+    margin-top: 22%;
+    animation: animation1 linear 3s;
+    -webkit-animation: animation1 linear 3s;
+    -moz-animation: animation1 linear 3s;
+    -o-animation: animation1 linear 3s;
+    -ms-animation: animation1 linear 3s;
+    color: #114b5f;
+}
+@keyframes animation1 {
+    0% {opacity:0; text-shadow: 10px 0px #f3e9d2;}
+    50% {opacity:1; text-shadow: 5px 0px #f3e9d2;}
+    100% {opacity:0; text-shadow: 3px 0px #f3e9d2;}
+}
+@-moz-keyframes animation1 {
+    0% {opacity:0; text-shadow: 10px 0px #f3e9d2;}
+    50% {opacity:1; text-shadow: 5px 0px #f3e9d2;}
+    100% {opacity:0; text-shadow: 3px 0px #f3e9d2;}
+}
+@-webkit-keyframes animation1 {
+    0% {opacity:0; text-shadow: 10px 0px #f3e9d2;}
+    50% {opacity:1; text-shadow: 5px 0px #f3e9d2;}
+    100% {opacity:0; text-shadow: 3px 0px #f3e9d2;}
+}
+@-o-keyframes animation1 {
+    0% {opacity:0; text-shadow: 10px 0px #f3e9d2;}
+    50% {opacity:1; text-shadow: 5px 0px #f3e9d2;}
+    100% {opacity:0; text-shadow: 3px 0px #f3e9d2;}
+}
+@-ms-keyframes animation1 {
+    0% {opacity:0; text-shadow: 10px 0px #f3e9d2;}
+    50% {opacity:1; text-shadow: 5px 0px #f3e9d2;}
+    100% {opacity:0; text-shadow: 3px 0px #f3e9d2;}
+}
+
+/* Media Query */
+@media(max-width: 320px){
+    body, html{
+        height: 100%;
+    }
+    .animation1{
+        margin-top: 50%;
+    }
+}
