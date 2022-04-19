@@ -49,33 +49,48 @@ html, body{
 }
 
 /* Media Query */
+@media(max-width: 991px){
+    .animation1{
+        margin-top: 50%; 
+    }
+}
+@media(max-width: 900px){
+    .animation1{
+        margin-top: 50%; 
+    }
+}
+@media(max-width: 800px){
+    .animation1{
+        margin-top: 60%; 
+    }
+}
 @media(max-width: 736px){
     .animation1{
-        margin-top: 90%; 
+        margin-top: 55%; 
         font-size: 16px;
     }
 }
 @media(max-width: 667px){
     .animation1{
-        margin-top: 90%; 
+        margin-top: 55%; 
         font-size: 16px;
     }
 }
 @media(max-width: 640px){
     .animation1{
-        margin-top: 90%; 
+        margin-top: 60%; 
         font-size: 16px;
     }
 }
 @media(max-width: 568px){
     .animation1{
-        margin-top: 90%; 
+        margin-top: 75%; 
         font-size: 16px;
     }
 }
 @media(max-width: 480px){
     .animation1{
-        margin-top: 90%; 
+        margin-top: 75%; 
         font-size: 16px;
     }
 }
