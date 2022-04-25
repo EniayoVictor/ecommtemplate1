@@ -11,7 +11,7 @@ html, body{
 }
 .animation1{
     font-family: 'Mukta', sans-serif;
-    font-size: 25px;
+    font-size: 22px;
     text-shadow: 3px 0px #f3e9d2;
     letter-spacing: 15px;
     margin-top: 22%;
@@ -51,70 +51,73 @@ html, body{
 /* Media Query */
 @media(max-width: 991px){
     .animation1{
-        margin-top: 50%; 
+        margin-top: 35%; 
+        font-size: 18px; 
     }
 }
 @media(max-width: 900px){
     .animation1{
-        margin-top: 50%; 
+        margin-top: 35%; 
+        font-size: 18px;; 
     }
 }
 @media(max-width: 800px){
     .animation1{
-        margin-top: 60%; 
+        margin-top: 35%; 
+        font-size: 18px;
     }
 }
 @media(max-width: 736px){
     .animation1{
-        margin-top: 55%; 
+        margin-top: 40%; 
         font-size: 16px;
     }
 }
 @media(max-width: 667px){
     .animation1{
-        margin-top: 55%; 
+        margin-top: 40%; 
         font-size: 16px;
     }
 }
 @media(max-width: 640px){
     .animation1{
-        margin-top: 60%; 
+        margin-top: 45%; 
         font-size: 16px;
     }
 }
 @media(max-width: 568px){
     .animation1{
-        margin-top: 75%; 
+        margin-top: 50%; 
         font-size: 16px;
     }
 }
 @media(max-width: 480px){
     .animation1{
-        margin-top: 75%; 
+        margin-top: 60%; 
         font-size: 16px;
     }
 }
 @media(max-width: 414px){
     .animation1{
-        margin-top: 90%; 
+        margin-top: 65%; 
         font-size: 16px;
     }
 }
 @media(max-width: 384px){
     .animation1{
-        margin-top: 90%; 
+        margin-top: 65%; 
         font-size: 16px;
     }
 }
 @media(max-width: 375px){
     .animation1{
-        margin-top: 90%; 
+        margin-top: 70%; 
         font-size: 16px;
     }
 }
 @media(max-width: 320px){
     .animation1{
-        margin-top: 90%; 
+        margin-top: 80%; 
         font-size: 16px;
     }
 }
